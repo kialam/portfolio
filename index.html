@@ -208,7 +208,7 @@
         function showMyInfo() {
             TweenLite.to(_class(".info"),.3, {rotationZ: 90, scale:1.1, ease: Power4.EaseInOut});
             var introduction = "<h2>My name is <span class='name'><a href='assets/Kia-Lam-Resume.pdf' target='_blank'>Kia Lam</a></span> and I'm a Creative Technologist working in San Francisco. I drink tea and ride scooters.</h2>"
-            _class(".title").innerHTML = "Yo." + introduction;
+            _class(".title").innerHTML = "Hey girl, hey!" + introduction;
         }
         function unRotate() {
             TweenLite.to(_class(".info"),.3, {rotationZ: -0, scale:1, ease: Power4.EaseInOut});
@@ -218,7 +218,7 @@
         }
         function showMyPortfolio() {
             var description = "<h2>Click to view my portfolio.</h2>";
-            _class(".title").innerHTML = "Shit I'm Proud Of" + description;
+            _class(".title").innerHTML = "Stuff I'm Proud Of" + description;
             TweenLite.to(_class(".programming"),.3, {scale:1.1, ease: Power4.EaseInOut});
         }
         function hideMyPortfolio() {
