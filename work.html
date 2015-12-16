@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <head>
     <title>Kia Lam _Work</title>
     <style type="text/css">
@@ -29,8 +29,13 @@
             box-shadow: 0 10px 20px rgba(0,0,0,0.3);
             margin-bottom: 60px;
         }
-        a {
+        a, a:visited {
             text-decoration: none;
+            color: #67dbac;
+        }
+        img {
+            border:none;
+            outline:none;
         }
         .logo img {
             width: 110px;
@@ -45,7 +50,7 @@
         }
         .networking img {
             width: 33px;
-            /* padding: 10px; */
+            height: 33px;
         }
         /*Tablet*/
         @media only screen and (max-device-width: 800px) {
@@ -81,6 +86,7 @@
             }
         }
     </style>
+    <script src="assets/modernizr.js"></script>
 </head>
 <body>
     <div class="logo">
@@ -94,45 +100,77 @@
 
     <div class="gif">
         <h2>Give the Gift of a Gif</h2>
-        <video poster="assets/gift-poster.jpg"></video>
+        <video poster="assets/gift-poster.jpg" controls>
+            <source src="http://d17uj07wka9v1m.cloudfront.net/videos/gif.mp4">
+            <img class="video" src="assets/gift-poster.jpg">
+        </video>
         <h3>Users are greeted with a set of cubes containing randomly generated gifs, hoping to help insipire the gift-giving spirit. They can then search for a gif to give via a keyword search and said gif(t) is delivered to their chosen recipient via the sophiscated means of an email.</h3>
-        <h3 style="color:67dbac;">Built with html, css, js, python, flask.</h3>
+        <h3 style="color:#67dbac;">Built with html, css, js, python, flask.</h3>
     </div>
     <div class="heart">
         <h2>Delunay Heart</h2>
-        <video poster="assets/delaunay-poster.jpg"></video>
+        <video poster="assets/delaunay-poster.jpg" controls>
+            <img class="video" src="assets/delaunay-poster.jpg">
+        </video>
         <h3>Delaunay Heart, or Esprit du Coeur, is an "Out of Body" art installation that was presented and featured as part of Goodby Silverstein and Partners' 2015 Year End Holiday Party.</h3>
-        <h3 style="color:67dbac;">Built with c++, processing, arduino, projection mapping, glue, pen & ink.</h3>
+        <h3 style="color:#67dbac;">Built with c++, processing, arduino, projection mapping, glue, pen & ink.</h3>
     </div>
     <div class="period">
         <h2>IKIGMPW</h2>
-        <video poster="assets/period-poster.jpg"></video>
+        <video poster="assets/period-poster.jpg" controls>
+            <source src="http://d17uj07wka9v1m.cloudfront.net/videos/periodprob.mp4">
+            <img class="video" src="assets/period-poster.jpg">
+        </video>
         <h3>What started as a social experiment quickly transmorgrified into a site that crowdsources the collective woes of being a woman via Twitter and gifs. This site draws tweets related to that oh-so-fun time of the month and pairs them with gifs generated based on those tweets. The experience is collective, emotive and aims to provide comedic relief during a not so fun time in every female's life.</h3>
-        <h3 style="color:67dbac;">Built with html, css, js, python, flask.</h3>
+        <h3 style="color:#67dbac;">Built with html, css, js, python, flask.</h3>
         <a href="http://www.iknowimgettingmyperiodwhen.com/" target="_blank"><h3 style="color:67dbac;">Website</h3></a>
     </div>
     <div class="lights">
         <h2>Adobe Lights</h2>
-        <video poster="assets/adobe-poster.jpg"></video>
+        <video poster="assets/adobe-poster.jpg" controls>
+            <source src="http://d17uj07wka9v1m.cloudfront.net/videos/adobe-lights.mp4">
+            <img class="video" src="assets/adobe-poster.jpg">
+        </video>
         <h3>When asked to re-imagine Adobe's logo we realized Adobe products power creativity. How better to display the logo, than through the creativity of the artists themselves? The wall takes live data from 100 different artists around the world and shows it real-time. It's currently on display in Adobe's lobby.</h3>
-        <h3 style="color:67dbac;">Built with html, css, js.</h3>
+        <h3 style="color:#67dbac;">Built with html, css, js.</h3>
         <a href="http://work.goodbysilverstein.com/adobe/lights/" target="_blank"><h3 style="color:67dbac;">Website</h3></a>
 
     </div>
         <div class="bac">
         <h2>Talk Read Sing</h2>
-        <video poster="assets/trs-poster.jpg"></video>
+        <video poster="assets/trs-poster.jpg" controls>
+            <source src="http://d17uj07wka9v1m.cloudfront.net/videos/trs.mp4">
+            <img class="video" src="assets/trs-poster.jpg">
+        </video>
         <h3>The campaign, developed for the Bay Area Council, highlights how simple actions done every day from birth-such as describing objects seen during a bus ride, singing songs, reading aloud or telling stories-can significantly improve babies' ability to build vocabulary and can boost their brain development.</h3>
         <h3>The campaign also features billboards and bus-shelter ads with prompts like "Let's talk about the bus" that will remind parents that everyday activities are an opportunity to help their child develop. In addition to the billboards, there will be television and radio public service announcements running in the Bay Area and a website, talkreadsing.org, where parents can learn more.</h3>
-        <h3 style="color:67dbac;">Built with html, css, js.</h3>
+        <h3 style="color:#67dbac;">Built with html, css, js.</h3>
         <a href="http://work.goodbysilverstein.com/BAC/BAC/" target="_blank"><h3 style="color:67dbac;">Website</h3></a>
     </div>
     <div class="billboard">
         <h2>Cisco Connected Billboard</h2>
-        <video poster="assets/cisco-poster.jpg"></video>
+        <video poster="assets/cisco-poster.jpg" controls>
+            <source src="http://d17uj07wka9v1m.cloudfront.net/videos/cisco-billbard.mp4">
+            <img class="video" src="assets/cisco-poster.jpg">
+        </video>
         <h3>Cisco took a digital billboard on Silicon Valley's busiest stretch of freeway and used APIs that "talk" to real-time traffic sensors, maps and a back-end network. When traffic was moving fast, drivers saw a quick headline. But when traffic slowed down during rush hour, they saw a longer message. And they saw an even longer one when it was at a standstill.</h3>
-        <h3 style="color:67dbac;">Built with python, bing api.</h3>
+        <h3 style="color:#67dbac;">Built with python, bing api.</h3>
     </div>
+    <script type="text/javascript">
+        // SVG Fallbacks
+        if (!Modernizr.svg) {
+            console.log("No browser support for SVG detected.");
+            var imgs = document.getElementsByTagName("img");
+            var svgExt = /.*\.svg$/;
+            var len = imgs.length;
 
+            for (var i = 0; i < len; i++) {
+                if(imgs[i].src.match(svgExt)) {
+                    imgs[i].src = imgs[i].src.slice(0, -3) + 'png';
+                    console.log(imgs[i].src);
+                }
+            }
+        }
+    </script>
 </body>
 </html>
