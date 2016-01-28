@@ -11,7 +11,8 @@
             font-size: 22px;
             text-transform: none;
             position: relative;
-            top: 80px;
+            /*top: 80px;*/
+            margin-top: 2%;
         }
         a {
             text-decoration: none;
@@ -173,7 +174,7 @@
         }
         function showMyInfo() {
             TweenLite.to(_class(".info"),.3, {rotationZ: 90, scale:1.1, ease: Power4.EaseInOut});
-            var introduction = "<h2>My name is <span class='name'><a href='assets/Kia-Lam-Resume.pdf' target='_blank'>Kia Lam</a></span> and I'm a Creative Technologist working in San Francisco. I drink tea and ride scooters.</h2>";
+            var introduction = "<h2>My name is <span class='name'><a href='assets/Kia-Lam-Resume.pdf' target='_blank'>Kia Lam</a></span> and I'm a Creative Technologist working in <del>San Francisco</del> Durham. I drink tea and ride scooters.</h2>";
             _class(".title").innerHTML = "Hey girl, hey!" + introduction;
         }
         function unRotate() {
